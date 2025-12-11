@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>您的姓名 - 学术主页</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts - 学术风格字体 -->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome 图标 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- ==================== 导航栏 ==================== -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Your Name</a>
+            <ul class="nav-menu">
+                <li><a href="#about">简介</a></li>
+                <li><a href="#news">动态</a></li>
+                <li><a href="#research">研究</a></li>
+                <li><a href="#publications">论文</a></li>
+                <li><a href="#awards">荣誉</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ==================== 主要内容区 ==================== -->
+    <main class="main-content">
+        
+        <!-- ==================== 个人简介区 ==================== -->
+        <section id="about" class="section hero-section">
+            <div class="container">
+                <div class="profile-card">
+                    <div class="profile-image-container">
+                        <!-- 
+                        ⚠️ 修改指南：替换为您的照片
+                        1. 将您的照片放入 img/ 文件夹
+                        2. 修改下面的 src="img/profile.jpg" 为您的照片文件名
+                        建议尺寸：300x400 像素，正式照片
+                        -->
+                        <img src="img/profile.jpg" alt="个人照片" class="profile-image">
+                    </div>
+                    
+                    <div class="profile-info">
+                        <!-- ⚠️ 修改：您的中英文姓名 -->
+                        <h1 class="name">
+                            <span class="name-en">Your English Name</span>
+                            <span class="name-cn">您的中文名</span>
+                        </h1>
+                        
+                        <!-- ⚠️ 修改：您的职位/身份 -->
+                        <p class="title">博士研究生 / Postdoctoral Fellow / 助理教授</p>
+                        
+                        <!-- ⚠️ 修改：您的单位信息 -->
+                        <p class="affiliation">
+                            <i class="fas fa-university"></i>
+                            <a href="https://your-university.edu" target="_blank">XX大学 XX学院</a>
+                        </p>
+                        
+                        <!-- ⚠️ 修改：您的地址 -->
+                        <p class="address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            中国XX省XX市XX区XX路XX号
+                        </p>
+                        
+                        <!-- ⚠️ 修改：您的邮箱 -->
+                        <p class="email">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:your-email@example.com">your-email@example.com</a>
+                        </p>
+                        
+                        <!-- 社交链接 -->
+                        <div class="social-links">
+                            <!-- ⚠️ 修改：您的各平台链接，不需要的可以删除整个 <a> 标签 -->
+                            <a href="https://scholar.google.com/citations?user=XXXXXX" target="_blank" title="Google Scholar">
+                                <i class="fas fa-graduation-cap"></i>
+                            </a>
+                            <a href="https://github.com/your-username" target="_blank" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/your-profile" target="_blank" title="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://twitter.com/your-handle" target="_blank" title="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://orcid.org/0000-0000-0000-0000" target="_blank" title="ORCID">
+                                <i class="fab fa-orcid"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 单位Logo展示 -->
+                <div class="institution-logos">
+                    <!-- 
+                    ⚠️ 修改指南：添加您所属机构的Logo
+                    1. 将Logo图片放入 img/ 文件夹
+                    2. 修改 src 和 alt 属性
+                    可以添加或删除 <img> 标签
+                    -->
+                    <img src="img/university-logo.png" alt="大学Logo" class="inst-logo">
+                    <img src="img/lab-logo.png" alt="实验室Logo" class="inst-logo">
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 个人简介 Biography ==================== -->
+        <section class="section bio-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-user"></i>
+                    Biography
+                </h2>
+                <div class="bio-content">
+                    <!-- 
+                    ⚠️ 修改指南：用您自己的简介替换下面的内容
+                    建议包含：
+                    - 当前职位和单位
+                    - 学历背景
+                    - 研究方向
+                    - 主要成就
+                    -->
+                    <p>
+                        I am currently a [您的职位] at [您的单位], working with Prof. 
+                        <a href="https://advisor-homepage.com" target="_blank">导师姓名</a>.
+                    </p>
+                    <p>
+                        I received my Ph.D. degree from [博士毕业院校] in [年份], advised by Prof. 
+                        <a href="https://phd-advisor.com" target="_blank">博导姓名</a>.
+                        Before that, I got my B.Eng./B.S. degree from [本科院校] in [年份].
+                    </p>
+                    <p>
+                        My research interests include [研究方向1], [研究方向2], and [研究方向3].
+                        I am passionate about [您的研究热情/目标].
+                    </p>
+                    <p class="highlight-text">
+                        <i class="fas fa-envelope"></i>
+                        I am looking for [博士生/实习生/合作者]. If you are interested in my research, 
+                        please feel free to <strong>email me</strong>!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 研究兴趣 Interests ==================== -->
+        <section class="section interests-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-lightbulb"></i>
+                    Research Interests
+                </h2>
+                <div class="interests-grid">
+                    <!-- 
+                    ⚠️ 修改指南：替换为您的研究兴趣
+                    每个 interest-item 代表一个研究方向
+                    可以添加或删除
+                    -->
+                    <div class="interest-item">
+                        <i class="fas fa-robot"></i>
+                        <span>计算机视觉</span>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-brain"></i>
+                        <span>深度学习</span>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-image"></i>
+                        <span>图像处理</span>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-cube"></i>
+                        <span>3D视觉</span>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-car"></i>
+                        <span>自动驾驶</span>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-language"></i>
+                        <span>多模态学习</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 新闻动态 News ==================== -->
+        <section id="news" class="section news-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-newspaper"></i>
+                    News
+                </h2>
+                <div class="news-list">
+                    <!-- 
+                    ⚠️ 修改指南：添加您的新闻动态
+                    格式：<li><span class="news-date">日期</span> 内容描述</li>
+                    最新的放在最上面
+                    建议保留 5-10 条最新消息
+                    -->
+                    <ul>
+                        <li>
+                            <span class="news-date">2025.06</span>
+                            <span class="news-badge new">New</span>
+                            One paper is accepted to <strong>ICCV 2025</strong>.
+                        </li>
+                        <li>
+                            <span class="news-date">2025.02</span>
+                            One paper is accepted to <strong>CVPR 2025</strong>.
+                        </li>
+                        <li>
+                            <span class="news-date">2024.12</span>
+                            I join [新单位] as a [新职位].
+                        </li>
+                        <li>
+                            <span class="news-date">2024.10</span>
+                            I successfully defended my Ph.D. thesis! 🎓
+                        </li>
+                        <li>
+                            <span class="news-date">2024.06</span>
+                            We won <strong>1st Place</strong> in [比赛名称].
+                        </li>
+                        <li>
+                            <span class="news-date">2024.02</span>
+                            Two papers are accepted to <strong>CVPR 2024</strong>.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 研究方向 Research ==================== -->
+        <section id="research" class="section research-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-flask"></i>
+                    Research
+                </h2>
+                <div class="research-intro">
+                    <!-- ⚠️ 修改：您的研究概述 -->
+                    <p>
+                        My research focuses on [研究大方向]. I am particularly interested in 
+                        [具体问题1] and [具体问题2]. Below is an overview of my research directions:
+                    </p>
+                </div>
+                
+                <!-- 
+                ⚠️ 修改指南：研究方向图片
+                1. 将研究概览图放入 img/ 文件夹
+                2. 修改 src 属性
+                建议使用一张能概括您研究的图片
+                -->
+                <div class="research-overview">
+                    <img src="img/research-overview.png" alt="Research Overview" class="research-img">
+                </div>
+                
+                <div class="research-areas">
+                    <!-- 
+                    ⚠️ 修改指南：研究方向详情
+                    每个 research-area 代表一个研究方向
+                    包含：编号、标题、描述、相关论文
+                    -->
+                    <div class="research-area">
+                        <div class="area-number">01</div>
+                        <div class="area-content">
+                            <h3>研究方向一的标题</h3>
+                            <p>
+                                详细描述这个研究方向的内容，您在这方面做了什么工作，
+                                解决了什么问题，取得了什么成果。
+                            </p>
+                            <div class="area-papers">
+                                Related publications: 
+                                <a href="#pub1">CVPR'24</a>, 
+                                <a href="#pub2">ICCV'23</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="research-area">
+                        <div class="area-number">02</div>
+                        <div class="area-content">
+                            <h3>研究方向二的标题</h3>
+                            <p>
+                                详细描述这个研究方向的内容，您在这方面做了什么工作，
+                                解决了什么问题，取得了什么成果。
+                            </p>
+                            <div class="area-papers">
+                                Related publications: 
+                                <a href="#pub3">NeurIPS'24</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="research-area">
+                        <div class="area-number">03</div>
+                        <div class="area-content">
+                            <h3>研究方向三的标题</h3>
+                            <p>
+                                详细描述这个研究方向的内容，您在这方面做了什么工作，
+                                解决了什么问题，取得了什么成果。
+                            </p>
+                            <div class="area-papers">
+                                Related publications: 
+                                <a href="#pub4">TPAMI'24</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 发表论文 Publications ==================== -->
+        <section id="publications" class="section publications-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-book"></i>
+                    Publications
+                    <!-- ⚠️ 修改：您的 Google Scholar 链接 -->
+                    <a href="https://scholar.google.com/citations?user=XXXXXX" target="_blank" class="scholar-link">
+                        <i class="fas fa-external-link-alt"></i> Google Scholar
+                    </a>
+                </h2>
+                
+                <p class="pub-note">
+                    (#: Co-First Author; *: Corresponding Author)
+                </p>
+
+                <!-- 会议论文 -->
+                <h3 class="pub-category">Conference Papers</h3>
+                <div class="publications-list">
+                    <!-- 
+                    ⚠️ 修改指南：添加您的论文
+                    每篇论文一个 pub-item
+                    包含：缩略图、标题、作者、会议/期刊、链接
+                    
+                    论文图片：放入 img/papers/ 文件夹
+                    建议尺寸：200x150 像素
+                    -->
+                    
+                    <div class="pub-item" id="pub1">
+                        <div class="pub-image">
+                            <img src="img/papers/paper1.png" alt="Paper Thumbnail">
+                        </div>
+                        <div class="pub-content">
+                            <h4 class="pub-title">
+                                <a href="https://arxiv.org/abs/xxxx.xxxxx" target="_blank">
+                                    论文标题：这里是您论文的完整标题
+                                </a>
+                            </h4>
+                            <p class="pub-authors">
+                                <!-- 加粗自己的名字 -->
+                                <strong>Your Name</strong>, 
+                                <a href="https://coauthor1.com">Co-author 1</a>, 
+                                <a href="https://coauthor2.com">Co-author 2</a>
+                            </p>
+                            <p class="pub-venue">
+                                <span class="venue-name">IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</span>, 
+                                <span class="venue-year">2025</span>
+                                <span class="pub-badge spotlight">Spotlight</span>
+                            </p>
+                            <div class="pub-links">
+                                <a href="https://paper-url.pdf" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+                                <a href="https://arxiv.org/abs/xxxx.xxxxx" target="_blank"><i class="fas fa-archive"></i> arXiv</a>
+                                <a href="https://github.com/your-repo" target="_blank"><i class="fab fa-github"></i> Code</a>
+                                <a href="https://project-page.com" target="_blank"><i class="fas fa-globe"></i> Project</a>
+                                <a href="https://video-url.com" target="_blank"><i class="fas fa-video"></i> Video</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pub-item" id="pub2">
+                        <div class="pub-image">
+                            <img src="img/papers/paper2.png" alt="Paper Thumbnail">
+                        </div>
+                        <div class="pub-content">
+                            <h4 class="pub-title">
+                                <a href="#" target="_blank">
+                                    第二篇论文的标题
+                                </a>
+                            </h4>
+                            <p class="pub-authors">
+                                <a href="#">Co-author 1</a>, 
+                                <strong>Your Name*</strong>, 
+                                <a href="#">Co-author 2</a>
+                            </p>
+                            <p class="pub-venue">
+                                <span class="venue-name">IEEE/CVF International Conference on Computer Vision (<strong>ICCV</strong>)</span>, 
+                                <span class="venue-year">2025</span>
+                            </p>
+                            <div class="pub-links">
+                                <a href="#" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+                                <a href="#" target="_blank"><i class="fas fa-archive"></i> arXiv</a>
+                                <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 继续添加更多论文... -->
+                </div>
+
+                <!-- 期刊论文 -->
+                <h3 class="pub-category">Journal Papers</h3>
+                <div class="publications-list">
+                    <div class="pub-item" id="pub3">
+                        <div class="pub-image">
+                            <img src="img/papers/paper3.png" alt="Paper Thumbnail">
+                        </div>
+                        <div class="pub-content">
+                            <h4 class="pub-title">
+                                <a href="#" target="_blank">
+                                    期刊论文标题
+                                </a>
+                            </h4>
+                            <p class="pub-authors">
+                                <strong>Your Name</strong>, 
+                                <a href="#">Co-author 1</a>, 
+                                <a href="#">Co-author 2</a>
+                            </p>
+                            <p class="pub-venue">
+                                <span class="venue-name">IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>TPAMI</strong>)</span>, 
+                                <span class="venue-year">2024</span>
+                            </p>
+                            <div class="pub-links">
+                                <a href="#" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+                                <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 获奖荣誉 Awards ==================== -->
+        <section id="awards" class="section awards-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-trophy"></i>
+                    Awards & Honors
+                </h2>
+                <div class="awards-list">
+                    <!-- 
+                    ⚠️ 修改指南：添加您的获奖经历
+                    格式：年份 + 奖项名称
+                    -->
+                    <div class="award-item">
+                        <span class="award-year">2024</span>
+                        <span class="award-name">
+                            <i class="fas fa-medal"></i>
+                            1st Place in CVPR 2024 Challenge - Track Name
+                        </span>
+                    </div>
+                    <div class="award-item">
+                        <span class="award-year">2023</span>
+                        <span class="award-name">
+                            <i class="fas fa-award"></i>
+                            国家奖学金 / National Scholarship
+                        </span>
+                    </div>
+                    <div class="award-item">
+                        <span class="award-year">2022</span>
+                        <span class="award-name">
+                            <i class="fas fa-star"></i>
+                            优秀研究生 / Outstanding Graduate Student
+                        </span>
+                    </div>
+                    <div class="award-item">
+                        <span class="award-year">2019</span>
+                        <span class="award-name">
+                            <i class="fas fa-certificate"></i>
+                            Meritorious Winner in MCM/ICM
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 学术服务 Services ==================== -->
+        <section class="section services-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-hands-helping"></i>
+                    Academic Services
+                </h2>
+                <div class="services-content">
+                    <!-- ⚠️ 修改：您的学术服务经历 -->
+                    <div class="service-category">
+                        <h3><i class="fas fa-book-reader"></i> Journal Reviewers</h3>
+                        <p>TPAMI, IJCV, TIP, TMM, TCSVT, TIM</p>
+                    </div>
+                    <div class="service-category">
+                        <h3><i class="fas fa-users"></i> Conference Reviewers</h3>
+                        <p>CVPR 2023-2025, ICCV 2023-2025, NeurIPS 2024-2025, ICLR 2025, ECCV 2024, AAAI 2023-2025</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 受邀演讲 Talks ==================== -->
+        <section class="section talks-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-microphone-alt"></i>
+                    Invited Talks
+                </h2>
+                <div class="talks-list">
+                    <!-- 
+                    ⚠️ 修改指南：添加您的受邀演讲
+                    -->
+                    <div class="talk-item">
+                        <div class="talk-info">
+                            <h4>演讲标题 / Talk Title</h4>
+                            <p class="talk-venue">
+                                <i class="fas fa-map-marker-alt"></i>
+                                会议/机构名称, 地点
+                            </p>
+                        </div>
+                        <div class="talk-date">
+                            <i class="fas fa-calendar"></i>
+                            Dec 2024
+                        </div>
+                    </div>
+                    <div class="talk-item">
+                        <div class="talk-info">
+                            <h4>另一个演讲标题</h4>
+                            <p class="talk-venue">
+                                <i class="fas fa-map-marker-alt"></i>
+                                某大学计算机学院, 中国
+                            </p>
+                        </div>
+                        <div class="talk-date">
+                            <i class="fas fa-calendar"></i>
+                            Nov 2024
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 联系方式 Contact ==================== -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-envelope"></i>
+                    Contact
+                </h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <!-- ⚠️ 修改：您的联系方式 -->
+                        <p>
+                            <i class="fas fa-envelope"></i>
+                            <strong>Email:</strong> 
+                            <a href="mailto:your-email@example.com">your-email@example.com</a>
+                        </p>
+                        <p>
+                            <i class="fas fa-building"></i>
+                            <strong>Office:</strong> 
+                            Building XX, Room XXX
+                        </p>
+                        <p>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <strong>Address:</strong> 
+                            XX大学XX学院, XX路XX号, XX市, 中国
+                        </p>
+                    </div>
+                    <div class="contact-message">
+                        <p>
+                            Feel free to reach out if you have any questions about my research 
+                            or potential collaborations!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==================== 页脚 ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <!-- ⚠️ 修改：您的姓名和更新日期 -->
+                © <span id="year"></span> Your Name | 
+                Last updated: <span id="last-updated">December 2024</span>
+            </p>
+            <p class="footer-note">
+                Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- 返回顶部按钮 -->
+    <button id="back-to-top" title="回到顶部">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
